@@ -4,7 +4,8 @@ while True:
     print("-"* 60)
     if x == "sair":
         break
-
+    elif x in lista:
+        print("Item ja registrado.")
     else:
         lista.append(x)
         print("-"* 60)
