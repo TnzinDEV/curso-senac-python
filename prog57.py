@@ -1,0 +1,10 @@
+curso = ["python", "java"]
+x = input(f"inclua seu curso a lista: {curso}: ")
+print("-"* 60)
+curso.append(x)
+print(f"Lista atualizada com o seu curso: {curso}")
+print("-"* 60)
+y = input(f"Digite o curso que voce quer remover da lista: {curso}: ")
+print("-"* 60)
+curso.remove(y)
+print(f"Lista atualizada com a exluçao necessaria {curso}")
